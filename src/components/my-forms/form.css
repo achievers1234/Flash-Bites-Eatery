@@ -1,0 +1,175 @@
+.container{
+    background: #000;;
+    /* font-size: 25px; */
+    align-content: center;
+}
+
+#h {
+    color: white;
+    align-items: center;
+    margin-left: 450px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#li{
+    color: #fff;
+    margin-left: 10rem;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.ui-form {
+    /* background: #ff; */
+    height: 650px;
+    width: 700px;
+    border-radius: 15px;
+    align-items: center;
+    /* font-size: 25px; */
+    color: #fda500 ;
+    padding: 50px 100px;
+    border: 5px solid #fda500;
+    margin-left: 30rem ;
+    margin-top: 10rem;
+    background: #0f0b25;;
+}
+
+/* .ui-forma {  */
+    /* background: #ff; */
+    /* height: 650px;
+    width: 700px;
+    border-radius: 15px;
+    align-items: center;  */
+    /* font-size: 25px; */
+    /* color: #fda500 ;
+    padding: 50px 100px;
+    border: 5px solid #fda500;
+    margin-left: 30rem ;
+    margin-top: 10rem;
+    background: #0f0b25;
+} */
+
+
+
+
+.ui-form input{
+    
+    margin: 20px;
+}
+#pi{
+    margin-left: 4rem;
+    height: 45px;
+    width: 20rem;
+    padding: 1rem;
+    font-weight: lighter;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    
+}
+
+#pw{
+
+    margin-left: 4rem;
+    height: 45px;
+    width: 20rem;
+    padding: 1rem;
+    font-weight: lighter;
+    font-size: 1rem; 
+    padding-bottom: 2rem;
+
+} 
+
+#un{
+
+    margin-left: 4rem;
+    height: 45px;
+    width: 20rem;
+    padding: 1rem;
+    font-weight: lighter;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+
+}
+
+#pn{
+
+    margin-left: 4rem;
+    height: 45px;
+    width: 20rem;
+    padding: 1rem;
+    font-weight: lighter;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+
+}
+
+#ea{
+
+    margin-left: 4rem;
+    height: 45px;
+    width: 20rem;
+    padding: 1rem;
+    font-weight: lighter;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+
+}
+
+
+
+#ei{
+    margin-left: 4rem;
+    height: 45px;
+    width: 20rem;
+    padding: 1rem;
+    font-weight: lighter;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    
+
+}
+
+#cb{
+    width: 1rem;
+    height: 1rem;
+    margin-left: 5rem;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#dp{
+    color: #fda500;
+    margin-left: 4rem;
+}
+
+/* .ui-form ::placeholder {
+    font-size: 2px;
+    
+} */
+
+.fbtn{
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+    background:#fda500;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-top: 30px;
+    margin-left: 180px;
+    cursor: pointer;
+}
+
+.p-acc {
+    margin: 20px;
+    margin-left: 5rem;
+}
+
+.error, .message {
+    color: red;
+    margin-left: 10rem;
+}
+/* 
+.field label, input {
+    background: #000;
+    margin: 200px 200px;
+} */

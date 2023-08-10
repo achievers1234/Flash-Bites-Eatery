@@ -1,0 +1,34 @@
+.container{
+    background: #000;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+}
+
+.house{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 3rem;
+    width: 100%;
+    max-width: 90rem;
+    height: 40rem;
+}
+
+#pp{
+    display: flex;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: #f76e11;
+    text-transform: uppercase;
+    font-style: italic;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+

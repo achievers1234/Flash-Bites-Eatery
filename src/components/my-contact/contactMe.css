@@ -1,0 +1,115 @@
+.contain{
+    display: flex;
+    background-image: url('../../../public/bgk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+    height: 50vh;
+}
+
+#lct {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 20rem;
+    color: #fff;
+    align-items: center;
+    margin-top: 12rem;
+} 
+
+#us{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-left: 40rem;
+    color: #fff;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#hp{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #fff;
+}
+
+.coU{
+    display: grid; 
+    grid-template-columns: auto; 
+    grid-column: 1;
+    padding: 2rem;
+    border-radius: 10px;
+    cursor:pointer;
+    color: white;
+    background: #0f0b25;
+    animation: animate 1s ease-in;
+    width: 50rem;
+    margin-left: 25rem;
+    margin-top: 2rem;
+}
+
+.conta2{
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+
+@media (max-width: 768px) {
+  /* Adjust styles for screens smaller than 768px */
+  #lct {
+    margin-left: 5rem;
+    margin-top: 6rem;
+    font-size: 2rem;
+  }
+  
+  #us{
+    margin-left: 10rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  
+  #hp{
+    margin-left: 5rem;
+    margin-top: 2rem;
+  }
+  
+  .coU {
+    margin-left: 2rem;
+    width: 30rem;
+  }
+  
+  .conta2 {
+    margin-top: 0.5rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjust styles for screens smaller than 480px */
+  #lct {
+    margin-left: 1rem;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+  }
+  
+  #us{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  #hp{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+  }
+  
+  .coU {
+    margin-left: 1rem;
+    width: 20rem;
+  }
+  
+  .conta2 {
+    margin-top: 0.5rem;
+    line-height: 1rem;
+    font-size: 0.8rem;
+  }
+}
+

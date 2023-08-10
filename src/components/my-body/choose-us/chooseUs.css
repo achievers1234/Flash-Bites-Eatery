@@ -1,0 +1,163 @@
+/* .single_feature {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background:#ff766b;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+} */
+/* .single_feature span i {
+    font-size: 1.5rem;
+} */
+
+
+/* .w-100 {
+    border-radius: 40px;
+    height: 40px;
+    width:70px
+
+} */
+/*  */
+
+/* #uu{
+    display: flex;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: #f76e11;
+    text-transform: uppercase;
+    font-style: italic;
+    align-items: center;
+    
+    
+} */
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+    /* background-color: #0f0b25; */
+    border-radius: 3rem;
+}
+
+.g-head{
+    /* display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    top: 0px; */
+    display: flex;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: #f76e11;
+    text-transform: uppercase;
+    font-style: italic;
+    align-items: center;
+    gap: 5rem;
+
+    margin-top: 1rem;
+    /* margin-bottom: 3rem; */
+    
+ } 
+
+
+div #image{
+    height: 30rem;
+    width: 80rem;
+    border-radius: 15rem;
+    margin-left: 6rem;
+    z-index: 1;
+    position: relative;
+    /* padding-bottom: 2rem; */
+   
+}
+
+
+div h3{
+    z-index: 2;
+    position: absolute;
+    width: 45rem;
+    margin-left:20rem;
+    margin-top: 5rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: #f5b70a;
+
+}
+
+.p-category{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.cat{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    color: white;
+    justify-content: space-between;
+    background-color: #0f0b25;
+    /* margin-bottom: 10rem; */
+    border-radius: 15px;
+    
+}
+
+#op{
+    border-radius: 3rem;
+}
+
+#wa{
+    width: 15rem;
+    height: 10rem;
+}
+
+/* #bs{
+    width: 15rem;
+    height: 15rem;
+} */
+
+.cat>:nth-child(1){
+    width: 20rem;
+    height: 10rem;
+    /* padding-top: 2rem; */
+    /* float: left; */
+   
+}
+
+.cat>:nth-child(2){
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--orange);
+    padding-top: 2rem;
+    
+    /* margin-top: 2rem; */
+    
+}
+
+.cat>:nth-child(3){ 
+    font-size: 1rem; 
+    line-height: 25px; 
+    float: left; 
+    padding-top: 10px;
+   
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+    .gallery {
+      padding: 0;
+    }
+  
+    div #image {
+      height: 20rem;}}
